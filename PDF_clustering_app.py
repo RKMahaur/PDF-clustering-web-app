@@ -8,8 +8,8 @@ Created on Wed Oct 30 11:19:18 2024
 import streamlit as st
 import pandas as pd
 import pickle
-import fitz  
 import re
+import fitz  
 
 # Load the trained model and vectorizer
 with open('kmeans_model.pkl', 'rb') as model_file:
