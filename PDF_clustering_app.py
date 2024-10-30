@@ -9,6 +9,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import re
+import PyMuPDF
 import fitz  
 
 # Load the trained model and vectorizer
