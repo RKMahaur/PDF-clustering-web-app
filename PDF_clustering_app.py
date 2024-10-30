@@ -12,13 +12,13 @@ import fitz  # PyMuPDF
 import re
 
 # Load the trained model and vectorizer
-with open('C:/Users/91981/kmeans_model.pkl', 'rb') as model_file:
+with open('kmeans_model.pkl', 'rb') as model_file:
     kmeans = pickle.load(model_file)
 
-with open('C:/Users/91981/vectorizer.pkl', 'rb') as vectorizer_file:
+with open('vectorizer.pkl', 'rb') as vectorizer_file:
     vectorizer = pickle.load(vectorizer_file)
 
-with open('C:/Users/91981/cluster_names.pkl', 'rb') as names_file:
+with open('cluster_names.pkl', 'rb') as names_file:
     cluster_names = pickle.load(names_file)
 
 # Function to extract text from PDFs
