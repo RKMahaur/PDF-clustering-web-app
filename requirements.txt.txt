@@ -1,6 +1,6 @@
 numpy==2.1.0
 pandas==2.2.2
-PyMuPdf==1.24.13
+PyMuPdf==1.24.12
 streamlit==1.38.0
 pickle-mixin==1.0.2
 scikit-learn==1.5.1
