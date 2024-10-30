@@ -9,8 +9,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import re
-import PyMuPDF
-import fitz  
+from PyMuPDF import fitz  
 
 # Load the trained model and vectorizer
 with open('kmeans_model.pkl', 'rb') as model_file:
