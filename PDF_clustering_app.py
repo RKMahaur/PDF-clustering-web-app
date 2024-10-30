@@ -8,7 +8,7 @@ Created on Wed Oct 30 11:19:18 2024
 import streamlit as st
 import pandas as pd
 import pickle
-from PyMuPDF import fitz  
+import fitz  
 import re
 
 # Load the trained model and vectorizer
